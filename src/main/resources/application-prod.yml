@@ -4,11 +4,12 @@ spring:
     username: ${DB_USER}
     password: ${DB_PASSWORD}
   
-# rabbitmq:
-    # host:
-    # port:
-    # username:
-    # password:
+rabbitmq:
+  host: ${MQ_HOST}
+  port: ${MQ_PORT}
+  username: ${MQ_USER}
+  password: ${MQ_PASS}
+  virtual-host: /  
 
 management:
   endpoints:
